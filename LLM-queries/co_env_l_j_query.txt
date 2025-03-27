@@ -1,0 +1,14 @@
+Can you make a csv with these headers? title fulltext_url filename additional_files keywords abstract author1_fname author1_mname
+author1_lname author1_suffix author1_email author1_institution author1_is_corporate author2_fname author2_mname author2_lname author2_suffix
+author2_email author2_institution author2_is_corporate author3_fname author3_mname author3_lname author3_suffix author3_email author3_institution
+author3_is_corporate author4_fname author4_mname author4_lname author4_suffix author4_email author4_institution author4_is_corporate acknowledgements
+disciplines document_type erratum fpage lpage peer_reviewed publication_date
+Please use the attached file to fill in the table with the appropriate data.
+The fpage field holds the page number.
+The publication_date for all items should be 1/1/2006, in the final column.
+peer_reviewed = FALSE
+Please make the items in the title field and author fields Title Case.
+Please make the items in the author fields Title Case as well.
+The document_type should be article or note, lower case.
+Please be diligent and ensure that all rows have the same number of columns and vice versa.
+Please put quotation marks around each field.
