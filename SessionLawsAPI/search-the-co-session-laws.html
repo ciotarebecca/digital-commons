@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search the Colorado Session Laws</title>
+    <style>
+		<!-- -->
+		form {
+			padding:2vh
+		}
+		
+		div.search {
+			padding-top: 2vh;
+		}
+    </style>
+</head>
+<body>
+    <h2>Search the Colorado Session Laws</h2>
+    <form action="http://127.0.0.1:5000/submit" method="get">
+    	<div class="free_text">
+        	<label for="title">Title:</label>
+        	<input type="text" id="title">
+        	<br></br>
+        	<label for="year">Year*:</label>
+        	<input type="text" id="year">
+        	*please use the format YYYY.
+        	<br></br>
+        	<label for="chapter">Chapter:</label>
+        	<input type="text" id="chapter">
+        	<br></br>
+        	<label for="page">Page #:</label>
+        	<input type="text" id="page">
+        	<br></br>
+        </div>
+        <div class="dropdown">
+        	<label for="session_type">Session Type:</label>
+  			<select id="session_type">
+    			<option value="reg">Regular</option>
+    			<option value="ext">Extraordinary</option>
+    			<option value="spec">Special</option>
+  			</select>
+  			<br></br>
+  			<label for="session_num">Session Number:</label>
+  			<select id="session_num">
+    			<option value="one">1</option>
+    			<option value="two">2</option>
+    			<option value="three">3</option>
+  			</select>
+  		</div>
+  		<div class=search>
+        	<button type="submit">Search</button>
+        </div>
+    </form>
+</body>
+</html>
