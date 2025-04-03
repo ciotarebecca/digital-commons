@@ -22,8 +22,6 @@ def make_call():
     chapter = input("Chapter:")
     page = input("First Page:")
 
-    print(title, year, sess_type, sess_num, doc_type, chapter, page)
-
     #build the query/url
     if title != '':
         url = url + '&title=' + title
