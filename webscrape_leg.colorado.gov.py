@@ -27,8 +27,7 @@ def PDF():
                 r = requests.get(link, stream=True)
                 if r.status_code == 200:
                     with open(filename, 'wb') as f:
-                        for chunk in response.iter_content(chunk_size=8192): # Download in chunks
-                            f.write(chunk)
+                        f.write(r.content)
             except requests.exceptions.RequestException as e:
                  print(f"Error downloading {link}: {e}")
         
